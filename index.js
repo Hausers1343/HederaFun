@@ -3,7 +3,7 @@ require("dotenv").config();
 
 async function main() {
 
-    console.log("Grab Hedera testnet account ID and private key from .env file")
+    console.log("Setting up credentials")
     const myAccountId = process.env.MY_ACCOUNT_ID;
     const myPrivateKey = process.env.MY_PRIVATE_KEY;
 
